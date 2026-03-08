@@ -1,0 +1,20 @@
+{
+  "name": "vetric-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Monorepo para o projeto Vetric",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "echo 'Building all packages...'",
+    "test": "echo 'Testing all packages...'",
+    "lint": "echo 'Linting all packages...'"
+  },
+  "keywords": [
+    "monorepo"
+  ],
+  "author": "Alisson",
+  "license": "MIT"
+}

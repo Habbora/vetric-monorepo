@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // Ambiente e Target (Backend Moderno com Bun)
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "allowJs": true,
+
+    // Configurações para Bun (O Bun funciona como um bundler nativo)
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true, // Força o uso de 'import type', ideal para backend limpo
+    "noEmit": true, // O Bun executa o TS diretamente, não precisamos gerar arquivos .js
+    "baseUrl": ".", 
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    // Qualidade e Strictness (Segurança de Tipos)
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

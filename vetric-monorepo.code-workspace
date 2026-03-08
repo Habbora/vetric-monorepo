@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		},
+		{
+			"name": "Backend",
+			"path": "apps/api"
+		},
+		{
+			"name": "packages",
+			"path": "packages"
+		},
+		{
+			"name": "tools",
+			"path": "tools"
+		}
+	],
+	"settings": {
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/dist": true,
+			"**/build": true,
+			"**/coverage": true
+		},
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode",
+			"editorconfig.editorconfig",
+			"oven.bun-vscode"
+		]
+	}
+}
