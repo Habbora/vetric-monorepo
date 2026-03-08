@@ -6,7 +6,7 @@
 		},
 		{
 			"name": "Backend",
-			"path": "apps/api"
+			"path": "apps/backend"
 		},
 		{
 			"name": "packages",
